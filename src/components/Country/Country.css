@@ -1,0 +1,29 @@
+.country{
+    border: 1px solid skyblue;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.visited{
+    background-color: rgba(33, 104, 0, 0.74);
+}
+.msg{
+    padding: 2px 15px;
+    font-weight: 500;
+    background-color: rgba(228, 59, 8, 0.87);
+    color: white;
+    border-radius: 15px;
+    width: fit-content;
+    display: inline-block;
+    margin: 0 10px;
+}
+.visitedmsg{
+    background-color: rgba(52, 146, 84, 0.882);
+    color: rgb(255, 255, 255);   
+}
+
+.country img{
+    max-width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
